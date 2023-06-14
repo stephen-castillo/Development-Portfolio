@@ -1,7 +1,7 @@
-const HEADER = () => {
+const CONTACT = () => {
     return (
       <p>Cool Jams</p>
     );
   }
   
-  export default HEADER;
+  export default CONTACT;
