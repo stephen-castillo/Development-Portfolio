@@ -1,7 +1,12 @@
+import NAV from './navigation/nav';
+
 const HEADER = () => {
     return (
-      <p>Cool Jams</p>
+        <div>
+            <p>header</p>
+            <NAV />
+        </div>
     );
-  }
-  
-  export default HEADER;
+}
+
+export default HEADER;

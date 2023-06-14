@@ -1,14 +1,36 @@
 body {
-    background-color: #282c34;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+    color: aquamarine;
+}
+
+a {
+    color: #61dafb;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #61dafb;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* 
+    0C4767 (indigo dye)
+    3DA5D9 (picton blue)
+    1EFFBC (Aquamarine)
+    244F26 (Cal Poly Green)
+    256D1B (Office Green)
+*/

@@ -1,6 +1,6 @@
 const PROJECT = () => {
     return (
-      <p>Cool Jams</p>
+      <p>Project</p>
     );
   }
   

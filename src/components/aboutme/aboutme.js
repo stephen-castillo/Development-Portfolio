@@ -1,8 +1,7 @@
 const ABOUT = () => {
     return (
-      <p>Cool Jams</p>
+        <p>About me</p>
     );
-  }
-  
-  export default ABOUT;
+}
 
+export default ABOUT;

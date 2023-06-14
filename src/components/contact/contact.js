@@ -1,6 +1,6 @@
 const CONTACT = () => {
     return (
-      <p>Cool Jams</p>
+      <p>Contact</p>
     );
   }
   

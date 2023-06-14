@@ -1,7 +1,7 @@
-const PORFOLIO = () => {
+const PORTFOLIO = () => {
     return (
-      <p>Cool Jams</p>
+      <p>Portfolio</p>
     );
   }
   
-  export default PORFOLIO;
+  export default PORTFOLIO;
