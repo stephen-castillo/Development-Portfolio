@@ -1,6 +1,12 @@
+/* Add vertical spacing */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
   
+@media (max-width: 767px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}

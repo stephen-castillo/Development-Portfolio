@@ -1,0 +1,26 @@
+.project-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-info {
+    flex-grow: 1;
+}
+
+/* Add margin between project boxes */
+.project-box {
+    margin-bottom: 0;
+}
+
+.project-box:not(:last-child) {
+    margin-bottom: 20px;
+}
+  

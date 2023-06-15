@@ -1,12 +1,17 @@
-const NAV = () => {
+import Nav from "react-bootstrap/Nav";
+import "./nav.css";
+
+export default function NAV(props) {
+    const { setCurrentPage } = props;
     return (
-      <ul className="nav nav-bar">
-        <li className="nav-item"><a href="#about">About</a></li>
-        <li className="nav-item"><a href="#portfolio">Portfolio</a></li>
-        <li className="nav-item"><a href="#contact">Contact</a></li>
-        <li className="nav-item"><a href="#resume">Resume</a></li>
-      </ul>
+        <Nav className="components">
+            <Nav.Link className="component-link" href="#aboutme" onClick={() => { setCurrentPage("AboutMe"); }}>About</Nav.Link>
+
+            <Nav.Link className="component-link" href="#portfolio" onClick={() => {setCurrentPage("Portfolio");}}>Projects</Nav.Link>
+
+            <Nav.Link className="component-link" href="#contact" onClick={() => {setCurrentPage("Contact");}}>Contact</Nav.Link>
+
+            <Nav.Link className="component-link" href="#resume" onClick={() => {setCurrentPage("Resume");}}>Resume</Nav.Link>
+        </Nav>
     );
-  }
-  
-  export default NAV;
+}
