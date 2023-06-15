@@ -1,0 +1,19 @@
+.component-link {
+    /* Default styles */
+    color: #61dafb;
+    font-weight: normal;
+}
+  
+  .component-link:hover {
+    /* Styles on hover */
+    color: gold;
+    font-weight: bold;
+}
+  
+  .component-link.active {
+    /* Styles when active */
+    color: #61dafb;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+

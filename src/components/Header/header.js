@@ -1,12 +1,12 @@
 import NAV from './navigation/nav';
 import Navbar from "react-bootstrap/Navbar";
+import "./header.css";
 
 
 export default function HEADER (props) {
     return (
       <Navbar collapseOnSelect className="navbar" variant="dark" expand="sm" aria-current="true">
         <Navbar.Brand href="/Development-Portfolio" className="name">
-          {" "}
           Stephen Castillo
         </Navbar.Brand>
         {/* Responsive Navbars */}
