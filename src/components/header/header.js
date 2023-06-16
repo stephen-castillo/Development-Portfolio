@@ -7,7 +7,7 @@ export default function HEADER (props) {
     return (
       <Navbar collapseOnSelect className="navbar" variant="dark" expand="sm" aria-current="true">
         <Navbar.Brand href="/Development-Portfolio" className="name">
-          Stephen Castillo
+          Stephen Castillo Portfolio
         </Navbar.Brand>
         {/* Responsive Navbars */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
