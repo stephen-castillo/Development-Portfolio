@@ -31,7 +31,6 @@ const FOOTER = () => {
             </Col>
         </Row>
     </Container>
-
     );
   }
   
