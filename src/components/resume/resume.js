@@ -1,11 +1,14 @@
 import CV from '../../assets/Stephen-Castillo.pdf';
+import { Button } from 'react-bootstrap';
+import './resume.css';
+
 const RESUME = () => {
     return (
       <div>
         <h2 className="title">Resume</h2>
-        <div className="resume-group">
+        <div className="resume-group d-flex flex-column align-items-center">
             <div className="proficiency-group">
-                <div className="frontend-proficienty">
+                <div className="frontend-proficiency">
                     <h3>Front End</h3>
                     <ul>
                         <li>HTML</li>
@@ -19,7 +22,7 @@ const RESUME = () => {
                         <li>React</li>
                     </ul>
                 </div>
-                <div className="backend-proficienty">
+                <div className="backend-proficiency">
                     <h3>Back End</h3>
                     <ul>
                         <li>Node.js</li>
@@ -34,8 +37,8 @@ const RESUME = () => {
                         <li>GraphQL</li>
                     </ul>
                 </div>
-                <div className="other-proficienty">
-                    <h3>Other Proficiency</h3>
+                <div className="other-proficiency">
+                    <h3>Other Proficiencies</h3>
                     <ul>
                         <li>Git</li>
                         <li>GitHub</li>
@@ -44,7 +47,7 @@ const RESUME = () => {
                         <li>PHP</li>
                     </ul>
                 </div>
-                <div className="tools-proficienty">
+                <div className="tools-proficiency">
                     <h3>Tools</h3>
                     <ul>
                         <li>Visual Studio Code</li>
@@ -55,7 +58,7 @@ const RESUME = () => {
                         <li>PuTTY</li>
                     </ul>
                 </div>
-                <a href={CV} target="_blank" rel="noopener noreferrer" className="download"> Download Resume</a>
+                <Button><a href={CV} target="_blank" rel="noopener noreferrer" className="download"> Download Resume</a></Button>
             </div>
         </div>
       </div>

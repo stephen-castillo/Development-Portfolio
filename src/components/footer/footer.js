@@ -20,14 +20,14 @@ const FOOTER = () => {
             </a>
             </Col>
             <Col sm={4} md={4} lg={4} className="d-flex align-items-center justify-content-center">
-            <a href="https://github.com/stephen-castillo" target="_blank" rel="noreferrer noopener">
+            <a href="https://stackoverflow.com/users/9903943/foxyrayne" target="_blank" rel="noreferrer noopener">
                 <img src={stackIcon} alt="stack overflow icon" className="footer" />
             </a>
             </Col>
         </Row>
         <Row className="footer-row justify-content-center">
             <Col sm={4} md={4} lg={4} className="d-flex align-items-center justify-content-center">
-            <p className="text-center">Copyright 2024</p>
+            <p className="text-center">Copyright © 2023</p>
             </Col>
         </Row>
     </Container>
