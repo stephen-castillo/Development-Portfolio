@@ -1,12 +1,25 @@
-/* Add vertical spacing */
 .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5em;
+  }
   
-@media (max-width: 767px) {
-    .portfolio-grid {
-        grid-template-columns: 1fr;
+  .project {
+    width: 45%;
+    border-radius: 2rem;
+  }
+  
+  .project img {
+    width: 400px;
+    height: 400px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 767px) {
+    .project {
+      width: 100%;
     }
-}
+  }
+  
