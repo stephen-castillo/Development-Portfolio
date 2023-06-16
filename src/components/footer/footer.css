@@ -1,0 +1,23 @@
+.footer{
+    display: inline;
+    width: auto;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    background-color: aliceblue;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+}
+
+.footer-row{
+    margin-top: 2em;
+    color:aqua;
+}
