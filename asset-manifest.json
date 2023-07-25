@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Development-Portfolio/static/css/main.80aacc47.css",
+    "main.js": "/Development-Portfolio/static/js/main.189e3d32.js",
+    "static/media/employee-tracker.jpg": "/Development-Portfolio/static/media/employee-tracker.1ecd00e89edb90f366f1.jpg",
+    "static/media/20220929_172929.jpg": "/Development-Portfolio/static/media/20220929_172929.b4bc4e1e7ea99bd3949d.jpg",
+    "static/media/jate-pwa.jpg": "/Development-Portfolio/static/media/jate-pwa.a7dfb4c0ea0ae88e9ff8.jpg",
+    "static/media/ecommerce.jpg": "/Development-Portfolio/static/media/ecommerce.2677d59b2720b4b3c80a.jpg",
+    "static/media/foodie-fetch-screenshot.png": "/Development-Portfolio/static/media/foodie-fetch-screenshot.e12936078c31cbb7129a.png",
+    "static/media/quickdecks.jpg": "/Development-Portfolio/static/media/quickdecks.c046d4ade2516f598b72.jpg",
+    "static/media/readme-generator.png": "/Development-Portfolio/static/media/readme-generator.5f8f8e2d870d4d24f0c3.png",
+    "static/media/Stephen-Castillo.pdf": "/Development-Portfolio/static/media/Stephen-Castillo.cebcf1917775fe12a179.pdf",
+    "static/media/IMA-GEN-screenshot.png": "/Development-Portfolio/static/media/IMA-GEN-screenshot.8ea238abe116e17dc26f.png",
+    "index.html": "/Development-Portfolio/index.html",
+    "static/media/github.svg": "/Development-Portfolio/static/media/github.1dbcf7b2491be69d987cad6ab8eacebc.svg",
+    "static/media/stackoverflow.svg": "/Development-Portfolio/static/media/stackoverflow.1f41c55ba16bbea79949dbc7c6c7bdc2.svg",
+    "main.80aacc47.css.map": "/Development-Portfolio/static/css/main.80aacc47.css.map",
+    "main.189e3d32.js.map": "/Development-Portfolio/static/js/main.189e3d32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80aacc47.css",
+    "static/js/main.189e3d32.js"
+  ]
+}
